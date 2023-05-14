@@ -111,7 +111,7 @@
   border-radius: 30px;
 }
 
-.sidebar-item {
+.sidebar__item {
   display: flex;
   align-items: center;
   gap: 28px;
@@ -119,12 +119,12 @@
   max-width: 230px;
 }
 
-.sidebar-icon {
+.sidebar__item-icon {
   color: #696f79;
   font-size: 25px;
 }
 
-.sidebar-list {
+.sidebar__item-list {
   color: #696f79;
   text-decoration: none;
   font-weight: 600;
