@@ -1,0 +1,133 @@
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.main-container {
+  position: relative;
+  width: 100%;
+  max-width: 1440px;
+}
+
+.header {
+  /* position: fixed; */
+  display: flex;
+  align-items: center;
+  padding: 34px 0 36px 60px;
+}
+
+.header-title {
+  margin-right: 115px;
+  color: #696f79;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 45px;
+}
+
+.header-search {
+  margin-right: 180px;
+  width: 100%;
+  max-width: 356px;
+  box-shadow: 0px 15px 40px 5px #ededed;
+  border-radius: 30px;
+  padding: 15px 25px;
+}
+
+.search-icon {
+  margin-right: 12px;
+  opacity: 0.8;
+}
+
+.search-input {
+  font-size: 19px;
+  outline: none;
+  border: none;
+}
+
+.header-btn {
+  margin-right: 134px;
+  padding: 17px 56px;
+  border: none;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: white;
+  background-color: #8692a6;
+  border-radius: 30px;
+}
+
+.header-user {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.header-user-img {
+  border: 2px solid #696f79;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.header-user-name {
+  color: #696f79;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 28px;
+}
+
+.sidebar {
+  position: absolute;
+  top: 180px;
+  width: 100%;
+  max-width: 300px;
+  height: calc(100%-140px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 54px;
+}
+
+.body {
+  position: absolute;
+  right: 33px;
+  top: 140px;
+  width: 100%;
+  height: 861px;
+  max-width: 1080px;
+  background: #ffffff;
+  box-shadow: 0px 15px 40px 5px #ededed;
+  border-radius: 30px;
+}
+
+.sidebar-item {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  width: 100%;
+  max-width: 230px;
+}
+
+.sidebar-icon {
+  color: #696f79;
+  font-size: 25px;
+}
+
+.sidebar-list {
+  color: #696f79;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+}
